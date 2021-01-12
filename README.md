@@ -4,7 +4,7 @@ This repo contains some MATLAB functions and scripts for performing fiducial and
 
 The two main files are:
 * *correctDriftFiducial.m*: for use on real data. It reads in an SMLM localisation file that needs to have at least a column for frame, x- and y-coordinate. The user doesn't have to edit the script to input parameters. Pop-up windows will appear that ask to fill in parameters or navigate to a file.
-* *testCorrectDriftFiducial.m*: for testing drift correction functions. It first simulates a dataset with drift and then performs analysis on it. For development purpose only.
+* *testCorrectDriftFiducial.m*: for testing drift correction functions. It first simulates a dataset with drift and then performs analysis on it. For testing purpose only.
 
 ## Fiducial-based drift correction ##
 
